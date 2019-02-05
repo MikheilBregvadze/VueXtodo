@@ -20,6 +20,7 @@
             <todo v-for="(todo, index) in todos" :key="index" :todo="todo"></todo>
             <button @click="unComplete">Un Complete</button>
         </div>
+        <div></div>
         <script src="/js/app.js"></script>
     </body>
 </html>
